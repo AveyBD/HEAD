@@ -12,7 +12,7 @@
   - [সুচিপত্র](#সুচিপত্র)
   - [যা লাগবেই](#যা-লাগবেই)
   - [এলিমেন্টস](#এলিমেন্টস)
-  - [Meta](#meta)
+  - [মেটা](#মেটা)
   - [Link](#link)
   - [Icons](#icons)
   - [Social](#social)
@@ -86,25 +86,29 @@
 -->
 <meta charset="utf-8">
 
-<!-- Set the document's title -->
+<!-- পেজের টাইটেল সেট করতে -->
 <title>Page Title</title>
 
-<!-- Set the base URL for all relative URLs within the document -->
+<!-- এই ডকুমেন্টের যত লিংক আছে তার একটি বেজ লিংক -->
 <base href="https://example.com/page.html">
 
-<!-- Link to an external CSS file -->
+<!-- পেজের সাথে এক্সটার্নাল CSS এর সম্পর্ক স্থাপন করে -->
 <link rel="stylesheet" href="styles.css">
 
-<!-- Used for adding in-document CSS -->
+<!-- পেজের মধ্যে CSS ডিজাইন এড করার জন্য -->
 <style>
   /* ... */
 </style>
 
-<!-- JavaScript & No-JavaScript tags -->
+<!-- পেজে এক্সটার্নাল জাভাস্ক্রিপ্ট ফাইল করতে -->
 <script src="script.js"></script>
+
+<!-- পেজে জাভাস্ক্রিপ্ট করতে -->
 <script>
   // function(s) go here
 </script>
+
+<!-- ব্রাউজার জাভাস্ক্রিপ্ট সাপোর্ট না করলে কি দেখাবে সেটা লেখার জন্য -->
 <noscript>
   <!-- No JS alternative -->
 </noscript>
@@ -112,7 +116,7 @@
 
 **[⬆ back to top](#table-of-contents)**
 
-## Meta
+## মেটা
 
 ```html
 <!--
