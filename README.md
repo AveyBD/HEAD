@@ -14,13 +14,13 @@
   - [এলিমেন্টস](#এলিমেন্টস)
   - [মেটা](#মেটা)
   - [লিংক](#লিংক)
-  - [Icons](#icons)
-  - [Social](#social)
-    - [Facebook Open Graph](#facebook-open-graph)
-    - [Twitter Card](#twitter-card)
-    - [Twitter Privacy](#twitter-privacy)
+  - [আইকন](#আইকন)
+  - [সোশ্যাল](#সোশ্যাল)
+    - [ফেসবুক ওপেন গ্রাথ](#ফেসবুক-ওপেন-গ্রাথ)
+    - [টুইটার কার্ড](#টুইটার-কার্ড)
+    - [টুইটার প্রাইভেসি](#টুইটার-প্রাইভেসি)
     - [Schema.org](#schemaorg)
-    - [Pinterest](#pinterest)
+    - [পিন্টারেস্ট](#পিন্টারেস্ট)
     - [Facebook Instant Articles](#facebook-instant-articles)
     - [OEmbed](#oembed)
     - [QQ/Wechat](#qqwechat)
@@ -246,24 +246,24 @@
 <!-- Used when a 3rd party service is utilized to maintain a blog -->
 <link rel="EditURI" href="https://example.com/xmlrpc.php?rsd" type="application/rsd+xml" title="RSD">
 
-<!-- Forms an automated comment when another WordPress blog links to your WordPress blog or post -->
+<!--যখন আপনার ওয়ার্ডপ্রেস পোস্ট লিংক অন্য কোন ওয়ার্ডপ্রেসে ইউজ করা হয় তখন তার লিংক পিং করার জন্য -->
 <link rel="pingback" href="https://example.com/xmlrpc.php">
 
-<!-- Notifies a URL when you link to it on your document -->
+<!-- আপনি যখন আপনার ডকুমেন্টে এটি যুক্ত করেন তখন যেখানে পিং করবে  -->
 <link rel="webmention" href="https://example.com/webmention">
 
 <!-- Enables posting to your own domain using a Micropub client -->
 <link rel="micropub" href="https://example.com/micropub">
 
-<!-- Open Search -->
+<!-- ওপেন সার্চ -->
 <link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title">
 
-<!-- Feeds -->
+<!-- ফিড -->
 <link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS">
 <link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3">
 
-<!-- Prefetching, preloading, prebrowsing -->
-<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
+<!-- প্রিফেচিং, প্রিলোডিং, প্রিব্রাউজিং -->
+<!-- আরো জানতে: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 <link rel="dns-prefetch" href="//example.com/">
 <link rel="preconnect" href="https://www.example.com/">
 <link rel="prefetch" href="https://www.example.com/">
@@ -271,37 +271,37 @@
 <link rel="preload" href="image.png" as="image">
 ```
 
-- 📖 [Link Relations](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
+- 📖 [লিংক রিলেশন](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#table-of-contents)**
 
-## Icons
+## আইকন
 
 ```html
-<!-- For IE 10 and below -->
-<!-- Place favicon.ico in the root directory - no tag necessary -->
+<!-- Internet Explorer ১০ বা  এর নিচের জন্য -->
+<!-- আপনার সাইটের মুল ফোল্ডারে favicon.ico রাখলেই হবে -->
 
-<!-- Icon in the highest resolution we need it for -->
+<!-- আইকনের সর্বোচ্চ রেজুলেশন -->
 <link rel="icon" sizes="192x192" href="/path/to/icon.png">
 
-<!-- Apple Touch Icon (reuse 192px icon.png) -->
+<!-- এপল টাচ আইকন (reuse 192px icon.png) -->
 <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
 
-<!-- Safari Pinned Tab Icon -->
+<!-- সাফারি পিন ট্যাব আইকন -->
 <link rel="mask-icon" href="/path/to/icon.svg" color="blue">
 ```
 
-- 📖 [All About Favicons (And Touch Icons)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
-- 📖 [Creating Pinned Tab Icons](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html)
-- 📖 [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
-- 📖 [Icons & Browser Colors](https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/)
+- 📖 [ফেবিকন সম্পর্কে (সাথে টাচ আইকনও)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
+- 📖 [কিভাবে পিন ট্যাব আইকন বানাবেন](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html)
+- 📖 [ফ্যাবআইকন চিটশিট](https://github.com/audreyr/favicon-cheat-sheet)
+- 📖 [আইকন ও ব্রাউজার কালার সম্পর্কে](https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ উপরে যান](#table-of-contents)**
 
-## Social
+## সোশ্যাল
 
-### Facebook Open Graph
-> Most content is shared to Facebook as a URL, so it's important that you mark up your website with Open Graph tags to take control over how your content appears on Facebook. [More about Facebook Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters#markup) 
+### ফেসবুক ওপেন গ্রাথ
+> বেশিরভাগ আর্টিকেলই ফেসবুকে শেয়ার হয়, তাই ফেসবুক অপেন গ্রাফকে এমনভাবে আপনার পেজের হেডে ভালভাবে প্রতিস্থাপন করা উচিৎ [More about Facebook Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters#markup) 
 
 ```html
 <meta property="fb:app_id" content="123456789">
@@ -316,11 +316,11 @@
 <meta property="article:author" content="">
 ```
 
-- 📖 [Open Graph protocol](http://ogp.me/)
-- 🛠 Test your page with the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- 📖 [ওপেন গ্রাফ প্রটোকল(http://ogp.me/)
+- 🛠 আপনার ডকুমেন্টকে টেস্ট করুন[Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 
-### Twitter Card
-> With Twitter Cards, you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website. [More about Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
+### টুইটার কার্ড
+> টুইটার কার্ড দিয়ে আপনার লিংকের টুইটার শেয়ারের মান উন্নত করতে পারেন। [More about Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
 
 ```html
 <meta name="twitter:card" content="summary">
@@ -334,12 +334,12 @@
 ```
 
 - 📖 [Getting started with cards — Twitter Developers](https://dev.twitter.com/cards/getting-started)
-- 🛠 Test your page with the [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+- 🛠 আপনার পেজকে টেস্ট করুন [Twitter Card Validator](https://cards-dev.twitter.com/validator)
 
-### Twitter Privacy
-If you embed tweets in your website, Twitter can use information from your site to tailor content and suggestions to Twitter users. [More about Twitter privacy options](https://dev.twitter.com/web/overview/privacy#what-privacy-options-do-website-publishers-have).
+### টুইটার প্রাইভেসি
+আপনি যদি আপনার সাইটে টুইট ইউজ করেন তাহলে সেখানে টুইটার তার প্রাইভেসি পলিসি এপ্লাই করতে পারে [More about Twitter privacy options](https://dev.twitter.com/web/overview/privacy#what-privacy-options-do-website-publishers-have).
 ```html
-<!-- disallow Twitter from using your site's info for personalization purposes -->
+<!-- আপনার সাইটের তথ্য টুইটারকে ব্যবহার করতে মানা করুন -->
 <meta name="twitter:dnt" content="on">
 ```
 
@@ -355,12 +355,12 @@ If you embed tweets in your website, Twitter can use information from your site 
       <meta itemprop="image" content="https://example.com/image.jpg">
 ```
 
-**Note:** These meta tags require the `itemscope` and `itemtype` attributes to be added to the `<html>` tag.
+**Note:** এই ট্যাগগুলোর জন্য `itemscope` ও `itemtype` কে `<html>` ট্যাগে য়ুক্ত করতে হবে‌।
 
 - 📖 [Getting Started - schema.org](https://schema.org/docs/gs.html)
-- 🛠 Test your page with the [Rich Results Test](https://search.google.com/test/rich-results)
+- 🛠 আপনার পেজকে টেস্ট করুন [Rich Results Test](https://search.google.com/test/rich-results)
 
-### Pinterest
+### পিন্টারেস্ট
 
 Pinterest lets you prevent people from saving things from your website, according [to their help center](https://help.pinterest.com/en/business/article/prevent-saves-to-pinterest-from-your-site). The `description` is optional.
 
