@@ -34,8 +34,8 @@
     - [QQ মোবাইল ব্রাউজার](#qq-মোবাইল-ব্রাউজার)
     - [UC মোবাইল ব্রাউজার](#uc-মোবাইল-ব্রাউজার)
   - [এ্যাপ লিংক](#এ্যাপ-লিংক)
-  - [Other Resources](#other-resources)
-  - [Related Projects](#related-projects)
+  - [আরো তথ্য](#আরো-তথ্য)
+  - [একই ধরনের প্রকেক্ট](#একই-ধরনের-প্রকেক্ট)
   - [Other Formats](#other-formats)
   - [🌐 Translations](#-translations)
   - [🤝 Contributing](#-contributing)
@@ -571,14 +571,14 @@
 
 **[⬆ সুচিপত্র](#সুচিপত্র)**
 
-## Other Resources
+## আরো তথ্য
 
 - 📖 [HTML5 Boilerplate Docs: The HTML](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
 - 📖 [HTML5 Boilerplate Docs: Extend and customize](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
-## Related Projects
+## একই ধরনের প্রকেক্ট
 
 - [Atom HTML Head Snippets](https://github.com/joshbuchea/atom-html-head-snippets) - Atom package for `HEAD` snippets
 - [Sublime Text HTML Head Snippets](https://github.com/marcobiedermann/sublime-head-snippets) - Sublime Text package for `HEAD` snippets
