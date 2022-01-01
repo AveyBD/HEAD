@@ -223,7 +223,7 @@
 <!-- ডকুমেন্টের অন্য ভাষার একটি ডকুমেন্টের সাথে লিংক দেখানোর জন্য -->
 <link rel="alternate" href="https://bn.example.com/" hreflang="bn">
 
-<!-- Provides information about an author or another person -->
+<!-- লেখক সম্পর্কে আরো তথ্য দেয়ার জন্য -->
 <link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
 <link rel="me" href="mailto:name@example.com">
 <link rel="me" href="sms:+15035550125">
