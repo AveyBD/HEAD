@@ -13,7 +13,7 @@
   - [যা লাগবেই](#যা-লাগবেই)
   - [এলিমেন্টস](#এলিমেন্টস)
   - [মেটা](#মেটা)
-  - [Link](#link)
+  - [লিংক](#লিংক)
   - [Icons](#icons)
   - [Social](#social)
     - [Facebook Open Graph](#facebook-open-graph)
@@ -182,42 +182,42 @@
 <!-- ফ্রেমে কেমন হবে সেটা -->
 <meta http-equiv="Window-Target" content="_value">
 
-<!-- Geo tags -->
+<!-- জিও লোকাল ট্যাগ -->
 <meta name="ICBM" content="latitude, longitude">
 <meta name="geo.position" content="latitude;longitude">
-<meta name="geo.region" content="country[-state]"><!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
-<meta name="geo.placename" content="city/town"><!-- eg. content="New York City" -->
+<meta name="geo.region" content="country[-state]"><!-- দেশের কোড (ISO 3166-1): লাগবেই, এলাকার কোড (ISO 3166-2): ইচ্ছাকৃত; যেমন. content="BD" / content="BD-DHK" -->
+<meta name="geo.placename" content="city/town"><!-- যেমন. content="Dhaka" -->
 
-<!-- Web Monetization https://webmonetization.org/docs/getting-started -->
+<!-- ওয়েব মনোটোনাইজেশন https://webmonetization.org/docs/getting-started -->
 <meta name="monetization" content="$paymentpointer.example">
 ```
 
-- 📖 [Meta tags that Google understands](https://support.google.com/webmasters/answer/79812?hl=en)
+- 📖 [গুগল যেসব মেটা ট্যাগ বুঝে](https://support.google.com/webmasters/answer/79812?hl=en)
 - 📖 [WHATWG Wiki: MetaExtensions](https://wiki.whatwg.org/wiki/MetaExtensions)
 - 📖 [ICBM on Wikipedia](https://en.wikipedia.org/wiki/ICBM_address#Modern_use)
-- 📖 [Geotagging on Wikipedia](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
+- 📖 [উইকিপেডিতায়ে Geotagging](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
 
 **[⬆ back to top](#table-of-contents)**
 
-## Link
+## লিংক
 
 ```html
-<!-- Points to an external stylesheet -->
+<!-- এক্সটার্নাল CSS স্টাইলশিট লিংক করার জন্য -->
 <link rel="stylesheet" href="https://example.com/styles.css">
 
-<!-- Helps prevent duplicate content issues -->
+<!-- ডুপ্লিকেট কনটেন্ট রোধ করার জন্য -->
 <link rel="canonical" href="https://example.com/article/?page=2">
 
-<!-- Links to an AMP HTML version of the current document -->
+<!-- বর্তমান ভার্শনের AMP ভার্শনের লিংক বুঝানোর জন্য -->
 <link rel="amphtml" href="https://example.com/path/to/amp-version.html">
 
-<!-- Links to a JSON file that specifies "installation" credentials for the web applications -->
+<!-- যদি ওয়েব এপ্লিকেশন হিসাবে ইউঝ করা হয় তবে তার জন্য  ইন্সটালেশন ফাইল -->
 <link rel="manifest" href="manifest.json">
 
-<!-- Links to information about the author(s) of the document -->
+<!-- ডকুমেন্টের লেখক সম্পর্কে তথ্য -->
 <link rel="author" href="humans.txt">
 
-<!-- Refers to a copyright statement that applies to the link's context -->
+<!-- ডকুমেন্টের কপিরাইট সম্পর্কিত তথ্যের জন্য -->
 <link rel="license" href="copyright.html">
 
 <!-- Gives a reference to a location in your document that may be in another language -->
