@@ -569,7 +569,7 @@
 
 - 📖 [App Links](https://developers.facebook.com/docs/applinks)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
 ## Other Resources
 
