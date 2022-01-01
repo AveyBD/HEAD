@@ -55,20 +55,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--
-  উপরের দুইটি মেটা ট্যাগ <head> এর সবার  উপরে থাকা  উচিৎ যেন প্রতিটি HTML ফাইল ঠিমভাবে রেন্ডার হয়। বাকি যেকোন হেড এলিমেন্ট এই দুইটি ট্যাগের পরে আসবে।
+  উপরের দুইটি মেটা ট্যাগ <head> এর সবার  উপরে থাকা উচিৎ 
+  যেন প্রতিটি HTML ফাইল ঠিমভাবে রেন্ডার হয়। বাকি যেকোন হেড 
+  এলিমেন্ট এই দুইটি ট্যাগের পরে আসবে।
  -->
 <title>পাতার টাইটেল</title>
 ```
 
 `meta charset` - ওয়েবসাইটের এনকোডিং কি সেটা বলে দেয়, সাধারনত `utf-8` ব্যবহার করা হয়। 
 
-`meta name="viewport"` - viewport settings related to mobile responsiveness
+`meta name="viewport"` - মোবাইল ট্যাব ইত্যাদি ভিন্ন ভিন্ন ডিসপ্লে সাইজের জন্য সেটিংস যেন সকল সাইজের স্ক্রিনে ঠিকভাবে দেখা যায়।
 
-`width=device-width` - use the physical width of the device (great for mobile!)
+`width=device-width` - ডিসপ্লের ফিজিক্যাল প্রশস্তা অনুসারে কনেন্ট ডিজাইনের জন্য ( মোবাইল ডিভাইসগুলোর জন্য ভাল) ।
 
-`initial-scale=1` - the initial zoom, 1 means no zoom
+`initial-scale=1` - সাইটলোড হবার পর প্রথম কেমন জুম থামবে সেটা। ১ থাকা মানে কোন জুম হবেনা।
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্রে যান](#সুচিপত্র)**
 
 ## Elements
 
