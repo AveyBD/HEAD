@@ -76,13 +76,12 @@
 
 `<head>` এর এলিমেন্টসগুলো হল `meta`, `link`, `title`, `style`, `script`, `noscript`, ও `base` । 
 
-These elements provide information for how a document should be perceived, and rendered, by web technologies. e.g. browsers, search engines, bots, etc.
+এই এলিমেন্টস গুলো একটি HTML পেজকে কিভাবে রিসিভ করে কিভাবে দেখানো উচিৎ সেই সম্পর্কে ব্রাউজার, সার্র্চ ইঞ্জিণ, বটস  ইত্যাদিকে তথ্য প্রদান করে।
 
 ```html
 <!--
-  Set the character encoding for this document, so that
-  all characters within the UTF-8 space (such as emoji)
-  are rendered correctly.
+  নিচের ট্যাগটি ব্রাাউজারকে HTML ডকুমেন্টটির ক্যারেকটার সেট কে UTF-8 হিসাবে চিন্হিত করতে বলে 
+  যেন ইমোজি সহ বাকি সব ক্যরেক্টার ঠিকভাবে দেখা যায়। 
 -->
 <meta charset="utf-8">
 
