@@ -21,18 +21,18 @@
     - [টুইটার প্রাইভেসি](#টুইটার-প্রাইভেসি)
     - [Schema.org](#schemaorg)
     - [পিন্টারেস্ট](#পিন্টারেস্ট)
-    - [Facebook Instant Articles](#facebook-instant-articles)
-    - [OEmbed](#oembed)
+    - [ফেসবুক ইনস্ট্যান্ট আর্টিকেল](#ফেসবুক-ইনস্ট্যান্ট-আর্টিকেল)
+    - [ওএমডেড](#ওএমডেড)
     - [QQ/Wechat](#qqwechat)
-  - [Browsers / Platforms](#browsers--platforms)
-    - [Apple iOS](#apple-ios)
-    - [Google Android](#google-android)
-    - [Google Chrome](#google-chrome)
-    - [Microsoft Internet Explorer](#microsoft-internet-explorer)
-  - [Browsers (Chinese)](#browsers-chinese)
-    - [360 Browser](#360-browser)
-    - [QQ Mobile Browser](#qq-mobile-browser)
-    - [UC Mobile Browser](#uc-mobile-browser)
+  - [ব্রাউজার্স / প্লাটফর্ম](#ব্রাউজার্স--প্লাটফর্ম)
+    - [এপল আইওস](#এপল-আইওস)
+    - [গুগল এন্ড্রয়েড](#গুগল-এন্ড্রয়েড)
+    - [গুগল ক্রোম](#গুগল-ক্রোম)
+    - [মাইক্রোসফট ইন্টারনেট এক্সপ্লোরার](#মাইক্রোসফট-ইন্টারনেট-এক্সপ্লোরার)
+  - [ব্রাউজার (চাইনিজ)](#ব্রাউজার-চাইনিজ)
+    - [360 ব্রাউজার](#360-ব্রাউজার)
+    - [QQ মোবাইল ব্রাউজার](#qq-মোবাইল-ব্রাউজার)
+    - [UC মোবাইল ব্রাউজার](#uc-মোবাইল-ব্রাউজার)
   - [App Links](#app-links)
   - [Other Resources](#other-resources)
   - [Related Projects](#related-projects)
@@ -368,23 +368,23 @@
 <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
 ```
 
-### Facebook Instant Articles
+### ফেসবুক ইনস্ট্যান্ট আর্টিকেল
 
 ```html
 <meta charset="utf-8">
 <meta property="op:markup_version" content="v1.0">
 
-<!-- The URL of the web version of your article -->
+<!-- আপনার আর্টিকেলের মুল লিংক -->
 <link rel="canonical" href="https://example.com/article.html">
 
-<!-- The style to be used for this article -->
+<!-- ফেসবুক আর্টিকেলে যে স্টাইল এপ্লাই হবে -->
 <meta property="fb:article_style" content="myarticlestyle">
 ```
 
-- 📖 [Creating Articles - Instant Articles](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
+- 📖 [আরো জানুন- Instant Articles](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
 - 📖 [Code Samples - Instant Articles](https://developers.facebook.com/docs/instant-articles/reference)
 
-### OEmbed
+### ওএমডেড
 
 ```html
 <link rel="alternate" type="application/json+oembed"
@@ -399,7 +399,7 @@
 
 ### QQ/Wechat
 
-Users share web pages to qq wechat will have a formatted message
+আপনার লিংক QQ বা WeChat এ শেয়ার করলে তা ফরমেটেটড মেসেজ হিসাবে দেখাবে
 
 ```html
 <meta itemprop="name" content="share title">
@@ -410,76 +410,76 @@ Users share web pages to qq wechat will have a formatted message
 
 **[⬆ back to top](#table-of-contents)**
 
-## Browsers / Platforms
+## ব্রাউজার্স / প্লাটফর্ম
 
-### Apple iOS
+### এপল আইওস
 
 ```html
-<!-- Smart App Banner -->
+<!-- স্মার্ট এ্যাপ ব্যানার -->
 <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
 
-<!-- Disable automatic detection and formatting of possible phone numbers -->
+<!-- ডকুমেন্টে থাকা নাম্বারকে অটো ডিটেকশন করতে মানা করা -->
 <meta name="format-detection" content="telephone=no">
 
-<!-- Launch Icon (180x180px or larger) -->
+<!-- লাঞ্চ আইকন (180x180px বা এর বেশি) -->
 <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
 
-<!-- Launch Screen Image -->
+<!-- শুরুর স্ক্রিনের ছবি -->
 <link rel="apple-touch-startup-image" href="/path/to/launch.png">
 
-<!-- Launch Icon Title -->
+<!-- লাঞ্চ আইকনের টাইটেেল-->
 <meta name="apple-mobile-web-app-title" content="App Title">
 
-<!-- Enable standalone (full-screen) mode -->
+<!-- ফুল স্ক্রিন মুড চালু করতে -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
+<!-- স্ট্যাটাসবার দেখাবে কিনা -->
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-<!-- iOS app deep linking -->
+<!-- iOS এ্যাপ ডিপ লিংক -->
 <meta name="apple-itunes-app" content="app-id=APP-ID, app-argument=http/url-sample.com">
 <link rel="alternate" href="ios-app://APP-ID/http/url-sample.com">
 ```
 
 - 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
-### Google Android
+### গুগল এন্ড্রয়েড
 
 ```html
 <meta name="theme-color" content="#E64545">
 
-<!-- Add to home screen -->
+<!-- হোম স্ক্রিনে যুক্ত করার অপশন দেখাতে -->
 <meta name="mobile-web-app-capable" content="yes">
 <!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 
-<!-- Android app deep linking -->
+<!-- Android এ্যাপ ডিপ লিংক -->
 <meta name="google-play-app" content="app-id=package-name">
 <link rel="alternate" href="android-app://package-name/http/url-sample.com">
 ```
 
-### Google Chrome
+### গুগল ক্রোম
 
 ```html
 <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
 
-<!-- Disable translation prompt -->
+<!-- ট্রান্সলেশন বন্ধ করতে -->
 <meta name="google" content="notranslate">
 ```
 
-### Microsoft Internet Explorer
+### মাইক্রোসফট ইন্টারনেট এক্সপ্লোরার
 
 ```html
-<!-- Force IE 8/9/10 to use its latest rendering engine -->
+<!-- ইন্টারনেট এক্সপ্লোরার 8/9/10 কে তাদের লেটেস্ট ইঞ্জিন ব্যবহার করতে বলার জন্য -->
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<!-- Disable automatic detection and formatting of possible phone numbers by Skype Toolbar browser extension -->
+<!-- স্কাইপি টুলবার ব্যবহার করে ডকুমেন্টে থাকা নাম্বারকে অটো ডিটেকশন করতে মানা করা -->
 <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
 
-<!-- Windows Tiles -->
+<!-- উইন্ডোজ টাইলস -->
 <meta name="msapplication-config" content="/browserconfig.xml">
 ```
 
-Minimum required xml markup for `browserconfig.xml`:
+`browserconfig.xml` এর জন্য সর্বনিন্ম XML:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -497,43 +497,43 @@ Minimum required xml markup for `browserconfig.xml`:
 
 - 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426.aspx)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#table-of-contents)**
 
-## Browsers (Chinese)
+## ব্রাউজার (চাইনিজ)
 
-### 360 Browser
+### 360 ব্রাউজার
 
 ```html
-<!-- Select rendering engine order -->
+<!-- রেন্ডারিং ইনঞ্জিন কোনটার পরে কোনটা হবো -->
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 ```
 
-### QQ Mobile Browser
+### QQ মোবাইল ব্রাউজার
 
 ```html
-<!-- Locks the screen into the specified orientation -->
+<!-- স্ক্রিনের অরিয়েন্টেশন কিভাবে দেখাবে তা লক করা -->
 <meta name="x5-orientation" content="landscape/portrait">
 
-<!-- Display this document in fullscreen -->
+<!-- ডকুমেন্ট ফুল স্ক্রিনে দেখাতে -->
 <meta name="x5-fullscreen" content="true">
 
-<!-- Document will be displayed in "application mode" (fullscreen, etc.) -->
+<!-- ডকুমেন্টকে "application mode" এ দেখাবে (যেমন ফুল স্ক্রিন) -->
 <meta name="x5-page-mode" content="app">
 ```
 
-### UC Mobile Browser
+### UC মোবাইল ব্রাউজার
 
 ```html
-<!-- Locks the screen into the specified orientation -->
+<!-- স্ক্রিনের অরিয়েন্টেশন কিভাবে দেখাবে তা লক করা -->
 <meta name="screen-orientation" content="landscape/portrait">
 
-<!-- Display this document in fullscreen -->
+<!-- ডকুমেন্ট ফুল স্ক্রিনে দেখাতে -->
 <meta name="full-screen" content="yes">
 
-<!-- UC browser will display images even if in "text mode" -->
+<!-- UC ব্রাউজার text only mode এ থাকলেও ছবি দেখাবে -->
 <meta name="imagemode" content="force">
 
-<!-- Document will be displayed in "application mode"(fullscreen, forbidding gesture, etc.) -->
+<!-- ডকুমেন্টকে "application mode" এ দেখাবে (যেমন ফুল স্ক্রিন) -->
 <meta name="browsermode" content="application">
 
 <!-- Disabled the UC browser's "night mode" for this document -->
