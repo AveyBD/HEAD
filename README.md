@@ -128,20 +128,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--
-  Allows control over where resources are loaded from.
-  Place as early in the <head> as possible, as the tag  
-  only applies to resources that are declared after it.
+  পেজের রিসোর্সগুলো কোথা থেকে কন্ট্রোল হবে তা নিয়ন্ত্রণ করার কাজ করে্।
+  পেজের <head> এর যত উপরে সম্ভব দেয়া উচিৎ।
 -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
-<!-- Name of web application (only should be used if the website is used as an app) -->
+<!-- ওয়েব এ্যাপ্লিকেপশেনর নাম (তখনই ব্যবহার করা উচিৎ যখন Application হিসাবে ইউজ করা হয়) -->
 <meta name="application-name" content="Application Name">
 
-<!-- Theme Color for Chrome, Firefox OS and Opera -->
+<!-- ক্রোম, ফায়ারফক্স ও ওপেরা মিনির জন্য থিম কালার -->
 <meta name="theme-color" content="#4285f4">
 
-<!-- Short description of the document (limit to 150 characters) -->
-<!-- This content *may* be used as a part of search engine results. -->
+<!-- ১৫০ শব্দের মধ্যে পেজের ছোট একটি ডেসক্রিপশন -->
+<!-- এটা সার্চ ইঞ্জিনের মেটা হিসাবেও ব্যবহার হতে পারে -->
 <meta name="description" content="A description of the page">
 
 <!-- Control the behavior of search engine crawling and indexing -->
