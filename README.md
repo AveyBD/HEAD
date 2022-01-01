@@ -120,9 +120,9 @@
 
 ```html
 <!--
-  The following 2 meta tags *must* come first in the <head>
-  to consistently ensure proper document rendering.
-  Any other head element should come *after* these tags.
+  উপরের দুইটি মেটা ট্যাগ <head> এর সবার  উপরে থাকা উচিৎ 
+  যেন প্রতিটি HTML ফাইল ঠিমভাবে রেন্ডার হয়। বাকি যেকোন হেড 
+  এলিমেন্ট এই দুইটি ট্যাগের পরে আসবে।
 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
