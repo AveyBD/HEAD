@@ -220,8 +220,8 @@
 <!-- ডকুমেন্টের কপিরাইট সম্পর্কিত তথ্যের জন্য -->
 <link rel="license" href="copyright.html">
 
-<!-- Gives a reference to a location in your document that may be in another language -->
-<link rel="alternate" href="https://es.example.com/" hreflang="es">
+<!-- ডকুমেন্টের অন্য ভাষার একটি ডকুমেন্টের সাথে লিংক দেখানোর জন্য -->
+<link rel="alternate" href="https://bn.example.com/" hreflang="bn">
 
 <!-- Provides information about an author or another person -->
 <link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
