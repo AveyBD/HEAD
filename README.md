@@ -33,7 +33,7 @@
     - [360 ব্রাউজার](#360-ব্রাউজার)
     - [QQ মোবাইল ব্রাউজার](#qq-মোবাইল-ব্রাউজার)
     - [UC মোবাইল ব্রাউজার](#uc-মোবাইল-ব্রাউজার)
-  - [App Links](#app-links)
+  - [এ্যাপ লিংক](#এ্যাপ-লিংক)
   - [Other Resources](#other-resources)
   - [Related Projects](#related-projects)
   - [Other Formats](#other-formats)
@@ -550,7 +550,7 @@
 
 **[⬆সুচিপত্র](#সুচিপত্র)**
 
-## App Links
+## এ্যাপ লিংক
 
 ```html
 <!-- iOS -->
