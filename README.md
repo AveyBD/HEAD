@@ -553,17 +553,17 @@
 ## এ্যাপ লিংক
 
 ```html
-<!-- iOS -->
+<!-- আইফোন -->
 <meta property="al:ios:url" content="applinks://docs">
 <meta property="al:ios:app_store_id" content="12345">
 <meta property="al:ios:app_name" content="App Links">
 
-<!-- Android -->
+<!-- এন্ড্রয়েড -->
 <meta property="al:android:url" content="applinks://docs">
 <meta property="al:android:app_name" content="App Links">
 <meta property="al:android:package" content="org.applinks">
 
-<!-- Web fall back -->
+<!-- ওয়েব ফল ব্যাক -->
 <meta property="al:web:url" content="https://applinks.org/documentation">
 ```
 
