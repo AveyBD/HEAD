@@ -114,7 +114,7 @@
 </noscript>
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
 ## মেটা
 
@@ -197,7 +197,7 @@
 - 📖 [ICBM on Wikipedia](https://en.wikipedia.org/wiki/ICBM_address#Modern_use)
 - 📖 [উইকিপেডিতায়ে Geotagging](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#সুচিপত্র)**
 
 ## লিংক
 
@@ -273,7 +273,7 @@
 
 - 📖 [লিংক রিলেশন](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
 
-**[⬆ সুচিপত্র](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
 ## আইকন
 
@@ -296,7 +296,7 @@
 - 📖 [ফ্যাবআইকন চিটশিট](https://github.com/audreyr/favicon-cheat-sheet)
 - 📖 [আইকন ও ব্রাউজার কালার সম্পর্কে](https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/)
 
-**[⬆ উপরে যান](#table-of-contents)**
+**[⬆ উপরে যান](#সুচিপত্র)**
 
 ## সোশ্যাল
 
@@ -408,7 +408,7 @@
 ```
 - 📖 [Code Format Docs](http://open.mobile.qq.com/api/mqq/index#api:setShareInfo)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#সুচিপত্র)**
 
 ## ব্রাউজার্স / প্লাটফর্ম
 
@@ -497,7 +497,7 @@
 
 - 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426.aspx)
 
-**[⬆ সুচিপত্র](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
 ## ব্রাউজার (চাইনিজ)
 
@@ -536,19 +536,19 @@
 <!-- ডকুমেন্টকে "application mode" এ দেখাবে (যেমন ফুল স্ক্রিন) -->
 <meta name="browsermode" content="application">
 
-<!-- Disabled the UC browser's "night mode" for this document -->
+<!-- ব্রাউজারের নাইট মুড বন্ধ করতে -->
 <meta name="nightmode" content="disable">
 
-<!-- Simplify the document to reduce data transfer -->
+<!-- ডাটা ট্রান্সফার কমাতে -->
 <meta name="layoutmode" content="fitscreen">
 
-<!-- Disable the UC browser's feature of "scaling font up when there are many words in this document" -->
+<!-- "scaling font up when there are many words in this document" ফিচার বন্ধ করতে -->
 <meta name="wap-font-scale" content="no">
 ```
 
 - 📖 [UC Browser Docs](https://www.uc.cn/download/UCBrowser_U3_API.doc)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆সুচিপত্র](#সুচিপত্র)**
 
 ## App Links
 
