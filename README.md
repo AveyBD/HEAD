@@ -10,7 +10,7 @@
 
 - [🤯 HEAD](#-head)
   - [সুচিপত্র](#সুচিপত্র)
-  - [Recommended Minimum](#recommended-minimum)
+  - [যা লাগবেই](#যা-লাগবেই)
   - [Elements](#elements)
   - [Meta](#meta)
   - [Link](#link)
@@ -47,22 +47,20 @@
   - [💛 Support](#-support)
   - [📝 License](#-license)
 
-## Recommended Minimum
+## যা লাগবেই
 
-Below are the essential elements for any web document (websites/apps):
+নিচের ট্যাগগুলো একটি HTML পেজের জন্য অনেক গুরুত্বপুর্ণ, যা লাগবেই।: 
 
 ```html
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--
-  The above 2 meta tags *must* come first in the <head>
-  to consistently ensure proper document rendering.
-  Any other head element should come *after* these tags.
+  উপরের দুইটি মেটা ট্যাগ <head> এর সবার  উপরে থাকা  উচিৎ যেন প্রতিটি HTML ফাইল ঠিমভাবে রেন্ডার হয়। বাকি যেকোন হেড এলিমেন্ট এই দুইটি ট্যাগের পরে আসবে।
  -->
-<title>Page Title</title>
+<title>পাতার টাইটেল</title>
 ```
 
-`meta charset` - defines the encoding of the website, `utf-8` is the standard
+`meta charset` - ওয়েবসাইটের এনকোডিং কি সেটা বলে দেয়, সাধারনত `utf-8` ব্যবহার করা হয়। 
 
 `meta name="viewport"` - viewport settings related to mobile responsiveness
 
