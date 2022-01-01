@@ -147,10 +147,10 @@
 <meta name="robots" content="index,follow"><!-- সকল সার্চ ইঞ্জিনের জন্য -->
 <meta name="googlebot" content="index,follow"><!-- শুধুমাত্র গুগলের জন্য -->
 
-<!-- Tells Google not to show the sitelinks search box -->
+<!-- গুগলকে বলে যে সাইটের লিংক সার্চ রেজাল্টে দেখাবে কিনা -->
 <meta name="google" content="nositelinkssearchbox">
 
-<!-- Tells Google not to provide a translation for this document -->
+<!-- গুগলকে সাইট ট্রান্সলেট করতে মানা করে -->
 <meta name="google" content="notranslate">
 
 <!-- Verify website ownership -->
