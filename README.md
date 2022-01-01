@@ -37,7 +37,7 @@
   - [আরো তথ্য](#আরো-তথ্য)
   - [একই ধরনের প্রজেক্ট](#একই-ধরনের-প্রজেক্ট)
   - [পিডিঐফ আকারে নামান](#পিডিঐফ-আকারে-নামান)
-  - [🌐 Translations](#-translations)
+  - [🌐 অনুবাূ](#-অনুবাূ)
   - [🤝 Contributing](#-contributing)
     - [Guide](#guide)
       - [1. `master`](#1-master)
@@ -585,17 +585,18 @@
 - [head-it](https://github.com/hemanth/head-it) - CLI interface for `HEAD` snippets
 - [vue-head](https://github.com/ktquez/vue-head) - Manipulating the meta information of the `HEAD` tag for Vue.js
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
 ## পিডিঐফ আকারে নামান
 
-- 📄 [পিডিএফ](https://gitprint.com/aveybd/HEAD/blob/master/README.md)
+- 📄 [পিডিএফ](https://github.com/aveybd/HEAD/blob/master/README.md)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
-## 🌐 Translations
+## 🌐 অনুবাূ
 
 - 🇮🇩 [Bahasa](https://github.com/rijdz/HEAD)
+- 🇧🇩 [Bengali] (https://github.com/AveyBD/HEAD)
 - 🇧🇷 [Brazilian Portuguese](https://github.com/Webschool-io/HEAD)
 - 🇨🇳 [Chinese (Simplified)](https://github.com/Amery2010/HEAD)
 - 🇩🇪 [German](https://github.com/Shidigital/HEAD)
@@ -606,7 +607,7 @@
 - 🇪🇸 [Spanish](https://github.com/alvaroadlf/HEAD)
 - 🇹🇷 [Turkish/Türkçe](https://github.com/mkg0/HEAD)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ সুচিপত্র](#সুচিপত্র)**
 
 ## 🤝 Contributing
 
