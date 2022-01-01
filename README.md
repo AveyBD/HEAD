@@ -228,16 +228,16 @@
 <link rel="me" href="mailto:name@example.com">
 <link rel="me" href="sms:+15035550125">
 
-<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest -->
+<!-- আর্কাইভ সম্পর্কে তথ্য দিতে -->
 <link rel="archives" href="https://example.com/archives/">
 
-<!-- Links to top level resource in an hierarchical structure -->
+<!-- এই ডকুমেন্টের উচ্চতর লেভেলের কোন লিংক দেয়ার জন্য -->
 <link rel="index" href="https://example.com/article/">
 
-<!-- Provides a self reference - useful when the document has multiple possible references -->
+<!-- সেল্ফ রেফারেন্সের জন্য -->
 <link rel="self" type="application/atom+xml" href="https://example.com/atom.xml">
 
-<!-- The first, last, previous, and next documents in a series of documents, respectively -->
+<!-- ঐকই কমেন্টের প্রথম শেষ আগের ও পরের আর্টিকেলের লিংক দেয়ার জন্য -->
 <link rel="first" href="https://example.com/article/">
 <link rel="last" href="https://example.com/article/?page=42">
 <link rel="prev" href="https://example.com/article/?page=1">
