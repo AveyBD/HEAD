@@ -589,7 +589,7 @@
 
 ## Other Formats
 
-- 📄 [PDF](https://gitprint.com/joshbuchea/HEAD/blob/master/README.md)
+- 📄 [পিডিএফ](https://gitprint.com/aveybd/HEAD/blob/master/README.md)
 
 **[⬆ back to top](#table-of-contents)**
 
