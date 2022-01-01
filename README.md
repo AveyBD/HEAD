@@ -143,9 +143,9 @@
 <!-- এটা সার্চ ইঞ্জিনের মেটা হিসাবেও ব্যবহার হতে পারে -->
 <meta name="description" content="A description of the page">
 
-<!-- Control the behavior of search engine crawling and indexing -->
-<meta name="robots" content="index,follow"><!-- All Search Engines -->
-<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+<!-- সার্চ ইঞ্জিন পেজ ক্রাউল করবে কিনা এবং তা সার্চ রেজাল্টে দেখাবে কিনা তা নিয়ন্ত্রণ করে -->
+<meta name="robots" content="index,follow"><!-- সকল সার্চ ইঞ্জিনের জন্য -->
+<meta name="googlebot" content="index,follow"><!-- শুধুমাত্র গুগলের জন্য -->
 
 <!-- Tells Google not to show the sitelinks search box -->
 <meta name="google" content="nositelinkssearchbox">
