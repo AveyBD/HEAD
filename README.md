@@ -153,7 +153,7 @@
 <!-- গুগলকে সাইট ট্রান্সলেট করতে মানা করে -->
 <meta name="google" content="notranslate">
 
-<!-- Verify website ownership -->
+<!-- ওয়েবসাইটের মালিকানা ভেরিফিকেশনের জন্য -->
 <meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
 <meta name="yandex-verification" content="verification_token"><!-- Yandex Webmasters -->
 <meta name="msvalidate.01" content="verification_token"><!-- Bing Webmaster Center -->
@@ -161,25 +161,25 @@
 <meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
 <meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
 
-<!-- Identify the software used to build the document (i.e. - WordPress, Dreamweaver) -->
+<!-- কি দিয়ে পেজটি বানানো হয়েছে তা বুঝানোর জন্য -->
 <meta name="generator" content="program">
 
-<!-- Short description of your document's subject -->
+<!-- পাতাটি কি বিষয়ে তা বুঝানোর জন্য -->
 <meta name="subject" content="your document's subject">
 
-<!-- Gives a general age rating based on the document's content -->
+<!-- পাতাটি যে সম্পর্কে তার একটি সাধারন রেটিং -->
 <meta name="rating" content="General">
 
-<!-- Allows control over how referrer information is passed -->
+<!-- রেফার কেমন হবে সেই সম্পর্কে-->
 <meta name="referrer" content="no-referrer">
 
-<!-- Disable automatic detection and formatting of possible phone numbers -->
+<!-- ডকুমেন্টে থাকা নাম্বারকে অটো ডিটেকশন করতে মানা করা -->
 <meta name="format-detection" content="telephone=no">
 
-<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<!-- DNS Prefetch কে সম্পুর্নরুপে বন্ধ করার জন্য -->
 <meta http-equiv="x-dns-prefetch-control" content="off">
 
-<!-- Specifies the document to appear in a specific frame -->
+<!-- ফ্রেমে কেমন হবে সেটা -->
 <meta http-equiv="Window-Target" content="_value">
 
 <!-- Geo tags -->
