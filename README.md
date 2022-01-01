@@ -11,7 +11,7 @@
 - [🤯 HEAD](#-head)
   - [সুচিপত্র](#সুচিপত্র)
   - [যা লাগবেই](#যা-লাগবেই)
-  - [Elements](#elements)
+  - [এলিমেন্টস](#এলিমেন্টস)
   - [Meta](#meta)
   - [Link](#link)
   - [Icons](#icons)
@@ -72,9 +72,9 @@
 
 **[⬆ সুচিপত্রে যান](#সুচিপত্র)**
 
-## Elements
+## এলিমেন্টস
 
-Valid `<head>` elements include `meta`, `link`, `title`, `style`, `script`, `noscript`, and `base`.
+`<head>` এর এলিমেন্টসগুলো হল `meta`, `link`, `title`, `style`, `script`, `noscript`, ও `base` । 
 
 These elements provide information for how a document should be perceived, and rendered, by web technologies. e.g. browsers, search engines, bots, etc.
 
